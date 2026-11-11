@@ -1,0 +1,89 @@
+
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman, Times, serif;
+    background-color: #f4f4f9;
+    color: #2c3026;
+}
+
+/* Header */
+header {
+    background-color: #1e27ac;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #2d8cb8;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Profile picture */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Hobbies using Flexbox */
+.hobby-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hobby {
+    background-color: #e5d9f2;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    background-color: #3a10d1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #9eacf8;
+}
+
+/* Footer */
+footer {
+    background-color: hsl(229, 97%, 58%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
